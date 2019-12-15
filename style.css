@@ -1,0 +1,85 @@
+body{
+	background-color: #FAEEE7 ;
+}
+
+h1{
+	color: #334E58 ;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+	font-family: 'Raleway', sans-serif; 
+	font-size: ;
+	color: #334E58 ;
+}	
+
+p{
+	font-family: 'Raleway', sans-serif;
+	color: #334E58;
+}
+
+a{
+	text-decoration: none;
+	color: #588B8B;
+	font-family: 'Raleway', sans-serif;
+}
+
+.card-white{
+	background-color: white;
+    padding: 25px;
+    margin: 80px;
+    border-radius: 5px;
+    box-shadow: 10px 9px 35px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+img{
+	border-radius: 5px;
+	width: 260px;
+	box-shadow: 10px 9px 35px rgba(0,0,0,0.2);
+	margin: 0 auto;
+	border-radius: 10%;
+}
+
+.img-circle{
+	width: 380;
+	margin: 0 auto;
+	border-radius: 10%;
+}
+
+.container{
+	width: 850px;
+	margin: 0 auto;
+	background-color: #FAEEE7;
+}
+
+.btn-blue{
+background-color: #FAEEE7;
+padding: 8px 16px;
+border-radius: 5px;
+}
+
+.list-inline{
+padding-left: 0;
+list-style: none;
+}
+
+.list-inline li {
+	display: inline;
+	font-size:30px;
+}
+
+@media (max-width: 855px) {
+	.container {
+		width: 650px;
+	}
+}
+
+@media (max-width: 650px) {
+	.container {
+		width: 450px;
+	}
+}
+
+
+
